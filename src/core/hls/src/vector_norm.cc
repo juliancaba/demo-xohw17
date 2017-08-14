@@ -30,7 +30,7 @@ scale2(float sum)
 #ifndef POSIX
   return hls::recipf(sqrtf(sum)+1.6f);
 #else
-  return 1.f/(sqrtf(sum)+1.6f);
+  return 1.f/(sqrtf(sum)*1.6f);
 #endif
 }
 
