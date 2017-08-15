@@ -6,7 +6,6 @@
 #include "hls_math.h"
 
 
-
 float
 sum_hist_pow(float histIN[HIST_SIZE])
 {
